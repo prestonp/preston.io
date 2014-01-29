@@ -1,7 +1,6 @@
 body {
-  padding-top: 100px;
   padding-left: 100px;
-  padding-right: 200px;
+  width: 50%;
   font-size: 22pt;
   font-family: 'Noto Sans', sans-serif;
   color: #aaa;
@@ -10,8 +9,13 @@ a {
   color: #00B7FF;
   text-decoration: none;
 }
-a:hover {
+a:hover,
+a.active {
   text-decoration: underline;
+}
+img {
+  width: 100%;
+  height: auto;
 }
 ul li {
   display: inline;
@@ -24,4 +28,32 @@ ul {
   list-style-type: none;
   padding: 0;
   font-size: 16pt;
+}
+.project .title {
+  color: #515151;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+  font-size: 32pt;
+}
+.project .description {
+  font-size: 16pt;
+  font-weight: 400;
+  color: #919191;
+  letter-spacing: -0.02em;
+}
+.project ul.actions {
+  list-style-type: none;
+  font-size: 10pt;
+  padding-top: 10px;
+  margin: 0;
+  text-transform: uppercase;
+  border-top: 1px solid #919191;
+}
+.project ul.actions a {
+  width: 80%;
+  color: #919191;
+  font-weight: 700;
+}
+.project ul.actions a:hover {
+  text-decoration: underline;
 }
