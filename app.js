@@ -20,7 +20,7 @@ app.configure(function(){
   app.use(express.methodOverride());
   app.locals.gravatar = gravatar.url('prestonp08@gmail.com', {s: 16}, https=false);
   app.use(app.router);
-  app.use(require('less-middleware')({ src: __dirname + '/public' }));
+  app.use(require('less-middleware')(__dirname + '/public'));
   app.use(express.static(path.join(__dirname, 'public')));
 });
 
