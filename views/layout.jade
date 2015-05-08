@@ -4,9 +4,27 @@ html
     title Preston Pham
     block css
       link(href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700', rel='stylesheet', type='text/css')
+      link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
       link(rel='stylesheet', href='/stylesheets/style.css')
       link(rel="shortcut icon", href=locals.gravatar)
       link(rel="apple-touch-icon", href=locals.gravatar)
   body
-    block content
+    .container
+      .nav.clearfix
+        .navbar
+          a.title(href="/")
+            h1 Preston Pham
+            h2 Web Developer
+          a(href='mailto:preston.a.pham@gmail.com', alt='E-mail me')
+            i(class='fa fa-envelope')
+          a(href='http://food.preston.io', alt='Food')
+            i(class='fa fa-tumblr')
+          a(href='https://twitter.com/prestonp08', alt='Twitter')
+            i(class='fa fa-twitter')
+          a(href='https://www.facebook.com/prestonp', alt='The Facebook')
+            i(class='fa fa-facebook')
+          a(href='http://github.com/prestonp', alt='Code')
+            i(class='fa fa-github')
+      .content
+        block content
 
