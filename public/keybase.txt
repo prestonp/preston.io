@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/preston
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://preston.io
+  * I am preston (https://keybase.io/preston) on keybase.
+  * I have a public key with fingerprint 60DB 9188 6664 3B9C 4991  62C8 D02C 5B5A AC8C C409
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "60db918866643b9c499162c8d02c5b5aac8cc409",
+            "host": "keybase.io",
+            "key_id": "d02c5b5aac8cc409",
+            "kid": "0101adc41462749d2171a37ee8ad52cc5aaaa2252d82cbbbb323b28943868a3698790a",
+            "uid": "27511e620b42e8fbec37edf4bfc76519",
+            "username": "preston"
+        },
+        "service": {
+            "hostname": "preston.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1431742768,
+    "expire_in": 157680000,
+    "prev": "4ab8fe8133b0c2fb75ad4e5bc8e09016bba05177c114b6c0c2fc00c6060c136c",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMMtAnicbZJtUFRlFMd3hRTWEshIDF2ca4XQFvf9ZS0ZoY0vzDhTvhS+7N773Gfx
+urC73r27Cc6CZcNkCFKmTgmRohMtJDtaTuMECUOA48ssGLpGlGwTpQM7vNjItuV0
+L9WHZjpfnnn+z//8znPOnN5HEnQGfci0taT9YG+y/nL3C17dps2fonsRwSVWIOa9
+iAPOH3bJWQpltyw5FcSM0KgocBjL0jRNEgIHSI7DaBywIooDSqB4HrAAkCiHmJCd
+Lo+WoWIE3gOfk1yqpl6skqiq/+N3zD+gGIrxIiAxksYZkhNxjMF4goGQ5UUKB0BN
+4Xkcp3CRxYGgBoETAs5yJMHSLE/QHMtwKK/ivPM4nKEwDNI4KpA4ZO0CBCpLtJOC
+HTA0hWl1vR4oO/lyqLrdMvQoLifiNyGq6JMA1CagNfJfw9/NuGWX4gKuMlXfqShu
+s5amVLg13+tQsP5DsAqSU1RnqCb4oOyRVLwZU51AkTQkRhIYQ+IMzZoQuMctydAq
+aQ5KVVA1tDLQpyJJXmDtkMUIQkABbhcYihdJSAmAhSiHYrQg8CiFMQzAMFKggeYB
+KApolEYBRtAA0Xra7XQhZlL9Jl+qIj1SqZNXvDJE/D3d2xJ1eoNu4UMLtC3QGZJT
+/92N4cFU3dlo+MholfeJ6Fuff0Qb8ta9d36pjxvrb5sajaShqYnQmtX28uEfwvKy
+ir7X0gvPmCNt2cHYoZu5hfqBN/wNJRcib4ojQ7X1uZdtPTuqL6bt2FLz4MrIAd2u
+qrvBzmW/Pbp/iW1/XWYmW1/cfK/+wR/2wViMjZ4YLQuk3A7R4aRw/kpjU86IZd/Z
+dY8ZP7nun2H8hg1jXY1rVqUnTOvut1+9lsQsGm9pONKcfPXJFaEyJD7V//WYEmkX
+0WBRxlo01HO3GYx7CkZ0sum7Y5Yfbyw/Db+PNVSt2cVs/KWaLpgrnwj/jneufx4p
+mmXmHLMFPj8HtnrSvyjM/ml5q5KnD77vfsY2ezTxKaWotnjiROPDq+FxXSThxsGF
+KdnDfS++klczUBQg892NN+HuP6/1S0PDvG3p0FfRjgMWYt/1oO24fUW0vsCk7z0V
+N67ckt81mBT5UC+mZua0UuctdUk5FwPnSgLTysepuYveLjAO3JqsDY9X5nbmvduP
+5/dM5zb5OrzuOeNMV6xvT8LiqldDiz2W/nMnA5bPvi2pPPX0heaMidud8d7tC1aV
+ztg21fwav7S9415FVleLfMZ2pbt6cqwVSV9//2fr5oyWk4OtdZlrcw5njXwZnWr8
+4J2sbY5Yili5eu6bZ8svnW4y1W+I+zceveNIe/yWoTjxzkzCjHFyybGX/gJXSam0
+=F6ST
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/preston
+
+==================================================================
+
