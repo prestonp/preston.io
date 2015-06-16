@@ -37,3 +37,17 @@ html
                 i(class='fa fa-envelope')
       .content
         block content
+    block scripts
+      script.
+        function ready(fn) {
+          if (document.readyState != 'loading'){
+            fn();
+          } else {
+            document.addEventListener('DOMContentLoaded', fn);
+          }
+        }
+
+        ready(function animate() {
+          document.querySelectorAll('.nav')[0].className += ' dropin';
+          document.querySelectorAll('.overlay')[0].className += ' fadeout';
+        });
