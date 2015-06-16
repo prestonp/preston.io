@@ -15,6 +15,54 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  background: #2D1E27;
+  .fadeout;
+}
+
+.fadeout {
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: .3s;
+  animation-fill-mode: forwards;
+}
+
+.dropin {
+  animation-name: dropin;
+  animation-duration: 1s;
+  animation-delay: .3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes dropin {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .clearfix:after {
    content: " "; /* Older browser do not support empty content */
    visibility: hidden;
@@ -32,6 +80,10 @@ body {
   .container {
     width: 60%;
   }
+}
+
+.nav {
+  .dropin;
 }
 
 .navbar {
