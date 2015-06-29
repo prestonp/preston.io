@@ -12,10 +12,12 @@ nav {
   list-style-type: none;
   & > li { display: inline; }
   & > li + li { margin-left: 20px }
-  font-size: 2.0rem;
   margin-bottom: 20px;
   transition: font-size .3s;
 }
+
+.list-left { font-size: .8rem; }
+.list-right { font-size: 1.4rem; }
 
 @media (min-width: @breakpoint) {
   .list-left,
@@ -26,13 +28,11 @@ nav {
   .list-left {
     float: left;
     text-align: left;
-    font-size: .8rem;
     font-weight: bold;
   }
 
   .list-right {
     float: right;
     text-align: right;
-    font-size: 1.4rem;
   }
 }
