@@ -6,11 +6,12 @@
     "start": "node app"
   },
   "dependencies": {
+    "compression": "^1.5.0",
     "express": "3.1.0",
+    "gravatar": "~1.0.6",
     "jade": "*",
     "less-middleware": "*",
-    "marked": "~0.3.0",
-    "gravatar": "~1.0.6"
+    "marked": "~0.3.0"
   },
   "main": "app.js",
   "repository": {

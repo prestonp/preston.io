@@ -7,6 +7,7 @@ var express = require('express')
   , routes = require('./routes')
   , http = require('http')
   , path = require('path')
+  , compression = require('compression')
   , gravatar = require('gravatar');
 
 var app = express();
@@ -19,6 +20,7 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.locals.gravatar = gravatar.url('prestonp08@gmail.com', {s: 16}, https=false);
+  app.use(compression());
   app.use(app.router);
   app.use(require('less-middleware')(__dirname + '/public'));
   app.use(express.static(path.join(__dirname, 'public')));
