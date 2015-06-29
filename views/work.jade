@@ -1,5 +1,43 @@
 extends layout
 
 block content
-  h1 Projects
-  p Work in progress!
+  .project
+    section.work
+      h1 Discoteca
+      ul.list-tags
+        li.list-tag-item Node.js
+        li.list-tag-item socket.io
+        li.list-tag-item jQuery
+        li.list-tag-item LESS
+      p At the Goodybag, we had some speakers installed around
+        | the office. First, we hooked up the speakers to
+        | someone's laptop and played their playlist. This got 
+        | old quick.
+      p I decided to democratize our music and built Discoteca
+        | which allows people to search for tracks and queue
+        | them. The playlist gets updated in real-time and 
+        | shows album art as well as track information.
+      p
+        a.arrow(href="https://github.com/prestonp/discoteca") Source
+          i.fa.fa-caret-right
+    section.work.work-imgs
+      img(src="images/disco.png", data-action="zoom")
+      img(src="images/disco2.png", data-action="zoom")
+  .project
+    section.work
+      h1 Dataclips
+      ul.list-tags
+        li.list-tag-item Node.js
+        li.list-tag-item Postgres
+        li.list-tag-item Backbone
+        li.list-tag-item LESS
+      p Dataclips is like a sql pastebin that creates public, 
+        | anonymized links to data results in a neatly 
+        | formatted table.
+      p The current implementation supports Postgres servers.
+        | The next steps will be adding integrations so that you
+        | can create links through IDEs and chat services like 
+        | Slack and Hipchat.
+    section.work.work-imgs
+      img(src="images/dc.png", data-action="zoom")
+      img(src="images/dc2.png", data-action="zoom")
