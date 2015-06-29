@@ -10,6 +10,11 @@ var express = require('express')
   , compression = require('compression')
   , gravatar = require('gravatar');
 
+/**
+ * Middleware
+ */
+var theme = require('./lib/theme');
+
 var app = express();
 
 app.configure(function(){
@@ -31,7 +36,8 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-app.get('/projects', routes.projects);
+app.get('/work', theme('light'), routes.work);
+app.get('/about', theme('light'), routes.about);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
