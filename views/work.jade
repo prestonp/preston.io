@@ -3,6 +3,28 @@ extends layout
 block content
   .project
     section.work
+      h1 Goodybag Kitchen Sink
+      ul.list-tags
+        li.list-tag-item LESS
+        li.list-tag-item HTML
+        li.list-tag-item Handlebars
+      p The first iteration of Goodybag built stylesheets on top of Bootstrap but 
+        | this ended up being rather unwieldy and overly verbose for our needs.
+        | We suffered problems with conflicting styles and not reusing 
+        | components. To fix this, we decided to rebuild our styling framework
+        | for new pages.
+      p I created the first internal components for Goodybag's living style guide
+        | called the Kitchen Sink. The components include explanations, 
+        | demos and embeddable code samples. The kitchen sink became an 
+        | essential part of our front-end development flow and made 
+        | prototyping much easier.
+    section.work.work-imgs
+      img(src="images/ks.png", data-action="zoom")
+      img(src="images/ks2.png", data-action="zoom")
+      img(src="images/ks3.png", data-action="zoom")
+      img(src="images/ks4.png", data-action="zoom")
+  .project
+    section.work
       h1 Discoteca
       ul.list-tags
         li.list-tag-item Node.js
