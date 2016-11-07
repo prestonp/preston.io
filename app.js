@@ -24,7 +24,7 @@ app.configure(function(){
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
   app.use(express.methodOverride());
-  app.locals.gravatar = gravatar.url('prestonp08@gmail.com', {s: 16}, https=false);
+  app.locals.gravatar = gravatar.url('prestonp08@gmail.com', {s: 16}, https=true);
   app.use(compression());
   app.use(app.router);
   app.use(require('less-middleware')(__dirname + '/public'));
