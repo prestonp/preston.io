@@ -9,3 +9,7 @@ exports.work = function(req, res) {
 exports.about = function(req, res) {
   res.render('about');
 }
+
+exports.amp = function(req, res) {
+  res.render('amp');
+}

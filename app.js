@@ -38,6 +38,7 @@ app.configure('development', function(){
 app.get('/', routes.index);
 app.get('/work', theme('light'), routes.work);
 app.get('/about', theme('light'), routes.about);
+app.get('/amp', theme('light'), routes.amp);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
